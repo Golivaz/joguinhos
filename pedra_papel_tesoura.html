@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Pedra, Papel, Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="jogos.png">
+
+</head>
+<body>
+    <h2>Jogo de Pedra, Papel, Tesoura</h2>
+
+    <div class="rps-game-container">
+        <button class="rps-button" data-choice="pedra">Pedra</button>
+        <button class="rps-button" data-choice="papel">Papel</button>
+        <button class="rps-button" data-choice="tesoura">Tesoura</button>
+
+        <p id="rps-result">Faça sua escolha!</p>
+        <div class="rps-scoreboard">
+            <p>Jogador: <span id="player-score">0</span></p>
+            <p>Computador: <span id="computer-score">0</span></p>
+            <p>Empates: <span id="draws">0</span></p>
+        </div>
+    </div>
+    <p>Developed by Guilherme Rodrigues</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
